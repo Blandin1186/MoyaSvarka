@@ -1,0 +1,102 @@
+header {
+  min-height: 119px;
+  box-shadow: 0 1px 46px rgba(0, 0, 0, 0.11);
+  background-color: #fefefe;
+}
+
+.header_logo {
+  max-width: 276px;
+  width: 100%;
+}
+
+.header_menu {
+  max-width: 570px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  a {
+    color: #515151;
+    font-size: 18px;
+    line-height: 60px;
+  }
+}
+
+.header_menu a:hover {
+  color: #000056;
+  border-bottom: 1px solid rgba(0, 0, 56, 0.15);
+}
+
+.contacts_phone {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.contacts_mail {
+  color: #000056;
+  font-size: 18px;
+}
+
+.contacts_callback {
+  background: transparent;
+  border: transparent;
+  outline: none;
+  color: #000000;
+  font-size: 14px;
+  &:hover {
+    border-bottom: 1px solid rgba(187, 187, 187, 0.31);
+  }
+}
+
+.phone_ico {
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  background: url(../img/phone_call.png);
+}
+
+.title {
+
+color: #515151;
+font-family: Arsenal;
+font-size: 30px;
+font-weight: 700;
+line-height: 39.21px;
+text-transform: uppercase;
+text-align: center;
+}
+
+main .bred_crumps {
+  width: 100%;
+  background-color: #000055;
+  height: 30px;
+}
+
+.foto_flex_block {
+  display: flex;
+  flex-wrap: wrap;
+
+ 
+background-color: #f6f6f6;
+}
+
+
+h1 h2 h3 {
+  text-transform: uppercase;
+}
+
+footer {
+height: 100px;
+background-color: #202320;
+ .content{
+  width: 133px;
+  height: 13px;
+  color: #656565;
+  font-family: "SFUI Display";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  
+ }
+}
